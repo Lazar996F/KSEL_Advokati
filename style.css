@@ -1,0 +1,21 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+.sp-border-right {
+    border-right: 2px solid #367339;
+    line-height: 18px;
+  }
+
+
+  .proza-libre-nav{
+  font-family: 'Proza Libre', sans-serif;
+  color:#236a26;
+  font-weight: bold;
+  }
+
+ 
+
+  
