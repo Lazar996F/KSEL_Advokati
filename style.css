@@ -89,6 +89,18 @@ body {
  }
 
  .margin-ksel{
-  margin-top: -296px;
+  margin-top: -349px;
  }
   
+ .input-image {
+  background-image: url('images/search.png');
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+
+.content-img {
+  margin-top: 27%;
+  margin-left: 35%;
+}
+}
