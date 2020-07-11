@@ -37,13 +37,6 @@ body {
      padding-left: 6rem!important;
      padding-right: 6rem!important;
    }
-  
-
-   @media screen and  (min-width: 1335px){
-    .container{
-        max-width: 1335px!important;
-    }
-  }
 
 .vl {
   border-left: 2px solid rgb(230, 230, 230);
@@ -143,4 +136,28 @@ a:hover {
 .carousel-indicators .active {
   opacity: 1;
   background-color: #1e7e34!important;
+}
+
+/* SM Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+ 
+}
+ 
+/* MD Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+ 
+}
+ 
+/* LG Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .position-lg-absolute {
+    position: absolute;
+  }
+}
+ 
+/* XL Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    .container {
+      max-width: 1335px!important;
+  }
 }
