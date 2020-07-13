@@ -2,6 +2,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    font-family: 'Proza Libre', sans-serif !important;
   }
 
 .sp-border-right {
@@ -12,8 +13,9 @@ body {
 
   .proza-libre-nav{
   font-family: 'Proza Libre', sans-serif;
-  color:#2b5d38;
+  color:#1f692a!important;
   font-weight:normal;
+  
   }
 
   .banner-wrapper {
@@ -33,10 +35,7 @@ body {
       width:100%;
       top:50%;
   }
-   .padding-main{
-     padding-left: 6rem!important;
-     padding-right: 6rem!important;
-   }
+  
 
 .vl {
   border-left: 2px solid rgb(230, 230, 230);
@@ -138,6 +137,19 @@ a:hover {
   background-color: #1e7e34!important;
 }
 
+.white-smoke-bg{
+  background-color: #f3f3f5;
+}
+
+.img-radius{
+  border-radius:26px;
+}
+
+.line-mrg{
+  margin-left:318px!important;
+}
+
+
 /* SM Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
  
@@ -146,6 +158,12 @@ a:hover {
 /* MD Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
  
+ .bottom-line{
+   width: 283px;
+   border:1px solid #a5a5a7;
+ }
+
+
 }
  
 /* LG Large devices (desktops, 992px and up) */
@@ -153,8 +171,43 @@ a:hover {
   .position-lg-absolute {
     position: absolute;
   }
+
+
+  .line-absolute-gr{
+    padding-right: 12rem!important;
+  }
+
+
+  .text-padding-7{
+    padding-right: 7rem!important;
+  }
+
+  .text-cntr{
+    padding-right:390px;
+  }
+
+  .line-margin{
+    margin-top: -21px!important;
+    height: 15rem!important;
+    z-index: 1;
+  }
+
+  .vert-short-line{
+    border-left:1px solid #abc8b6;
+    height: 43px;
+    margin-left:11rem;
+  }
+
+  .padding-main{
+    padding-left: 86px!important;
+    padding-right: 86px!important;
+   }
+
 }
  
+
+
+
 /* XL Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
     .container {
