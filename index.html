@@ -1,85 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="bs">
 
 <head>
-    <title>Index</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- *****************************links*************************** -->
+
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- *****bootstrap link**** -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
-    <!-- ********FONTS****** -->
-    <!-- Proza Libre -->
-    <link href="https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap" rel="stylesheet">
-</head>
 
+    <!-- Custom CSS -->
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap" rel="stylesheet">
+
+    <title>Home</title>
+</head>
 
 <body>
 
-    <header class="container-fluid">
+    <header class="container-md-fluid">
         <nav class="container px-0 navbar navbar-expand-lg navbar-light justify-content-between tab-pane active"
             id="home" role="tabpanel" aria-labelledby="home-tab">
             <div class="mt-3">
-                <a class="navbar-brand" href="index.html"><img src="images/ksel.png" class="rounded pb-4 "
+                <a class="navbar-brand mr-0" href="index.html"><img src="images/ksel.png" class="rounded pb-4 "
                         alt="..."></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                <button class="navbar-toggler border-0 float-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-three-dots-vertical proza-libre-nav" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                      </svg></span>
                 </button>
             </div>
 
-            <div class="nav  collapse navbar-collapse justify-content-end pl-3 ml-4  border-bottom-0"
+            <div class="nav  collapse navbar-collapse justify-content-start justify-content-lg-end pl-md-3 ml-md-4  border-bottom-0"
                 id="navbarNavDropdown">
 
-                <ul class="nav tabs justify-content-end" id="myTab" role="tablist">
+                <ul class="d-md-flex nav d-block ">
 
-                    <li class="nav-item  pr-2 mt-3">
-                        <a class="nav-link proza-libre-nav pt-0 pb-0  pr-3 sp-border-right" id="first-tab"
-                            data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="false">
+                    <li class="nav-item  pr-lg-2 mt-3">
+                        <a href="nasaSpec.html" class="nav-link proza-libre-nav pt-0 pb-0 pl-5 pl-md-2 pr-lg-3 sp-border-right">
                             <p class="source-sans-card-text">Naša specijalnost</p>
                         </a>
                     </li>
-                    <li class="nav-item  pr-2 mt-3">
-                        <a class="nav-link proza-libre-nav pt-0 pb-0 sp-border-right pr-3 pl-2" id="profile-tab"
-                            data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+                    <li class="nav-item  pr-lg-2 mt-3">
+                        <a href="nasTim.html" class="nav-link proza-libre-nav pt-0 pb-0 sp-border-right pr-3 pl-5 pl-md-2">
                             <p class="source-sans-card-text">Naš tim</p>
                         </a>
                     </li>
 
-                    <li class="nav-item  pr-2 mt-3">
-                        <a class="nav-link proza-libre-nav pt-0 pb-0 sp-border-right pr-3 pl-2" id="messages-tab"
-                            data-toggle="tab" href="#messages" role="tab" aria-controls="messages"
-                            aria-selected="false">
+                    <li class="nav-item  pr-lg-2 mt-3">
+                        <a href="vesti.html" class="nav-link proza-libre-nav pt-0 pb-0 sp-border-right pr-3 pl-5 pl-md-2">
                             <p class="source-sans-card-text">Vesti</p>
                         </a>
                     </li>
-                    <li class="nav-item  pr-2 mt-3">
-                        <a class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right" id="settings-tab"
-                            data-toggle="tab" href="#settings" role="tab" aria-controls="settings"
-                            aria-selected="false">
+                    <li class="nav-item  pr-lg-2 mt-3">
+                        <a href="#" class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-5 pl-md-2 sp-border-right">
                             <p class="source-sans-card-text">Karijera</p>
                         </a>
                     </li>
 
-                    <li class="nav-item  pr-2 mt-3">
-                        <a class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right" id="about-tab"
-                            data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">
+                    <li class="nav-item  pr-lg-2 mt-3">
+                        <a href="#" class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-5 pl-md-2 sp-border-right">
                             <p class="source-sans-card-text">O nama</p>
                         </a>
                     </li>
 
-                    <li class="nav-item  pr-2 mt-3">
-                        <a class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right border-0"
-                            id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
-                            aria-selected="false">Kontakt</a>
+                    <li class="nav-item  pr-lg-2 mt-3">
+                        <a href="kontakt.html"
+                            class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-5 pl-md-2 sp-border-right border-0">Kontakt</a>
                     </li>
 
-                    <li class="nav-item mt-2 pr-2">
+                    <li class="nav-item mt-2 pr-lg-2">
                         <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-search mr-5" fill="currentColor"
                             xmlns="http://www.w3.org/2000/svg" style="color: rgb(159, 171, 183);">
                             <path fill-rule="evenodd"
@@ -109,707 +104,285 @@
         </nav>
     </header>
 
+    <main class="container-md-fluid tab-content padding-main">
 
-    <main class="container-fluid tab-content padding-main">
 
-        <!-- ***HOME page*** -->
-        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
-
-            <section class="pt-5 green-bg radius-border pb-5">
-                <div class="container pt-5 pb-5">
-                    <div class="row">
-                        <div class="col-lg-6 col-12">
-                            <div class="d-flex flex-column">
-                                <div class="p-0">
-                                    <h3 class="text-light proza-libre-nav">Zajednicka advokatska
-                                        kancelarija<br>Mujezinovic Sorajic Bakovic</h3>
-                                </div>
-                                <div class=" vl mt-3 mb-3 ml-5"></div>
-                                <div style="padding-right: 208px;">
-                                    <h1 class="proza-libre-nav text-light" style="font-size:4.5rem">Profesionalno
-                                        savetovanje u Vašem
-                                        poslovanju</h1>
-                                </div>
+        <section class="pt-5 green-bg radius-border padding-bot5">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="d-flex flex-column">
+                            <div class="p-0">
+                                <h3 class=" proza-libre-nav text-light">Zajednicka advokatska
+                                    kancelarija<br>Mujezinovic Sorajic Bakovic</h3>
                             </div>
-
-                            <div class="row mb-5 pl-3">
-                                <div class="col-2">
-                                    <img src="images/lineLeft.png" class="img-fluid ml-4 mt-3" alt="Responsive image">
-                                </div>
-                                <div class="col-10 mt-5 pt-4 pl-5">
-                                    <h4 class="proza-libre-nav text-light">Lorem Ipsum Dolor Sit Amet</h4>
-                                    <p class="proza-libre-nav text-light">Lorem Ipsum Dolor Sit Amet</p>
-                                </div>
-                            </div>
-
-                            <div class="d-flex ml-5">
-                                <img src="images/krline.png" class="img-fluid ml-4" alt="Responsive image">
-                            </div>
-
-
-                            <div class="row pb-5 mt-5">
-                                <div class="col">
-                                    <button type="button"
-                                        class="d-none d-lg-inline btn btn-light btn-lg text-success radius-border"
-                                        style="height: 65px;">
-                                        Naša specijalnost
-                                    </button>
-                                </div>
-                                <div class="col pt-5">
-                                    <img src="images/absoluteRight.png" class="img-fluid ml-5 position-absolute pt-5"
-                                        alt="Responsive image" style="margin-top: -73px;">
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-6 col-12 pl-5 mb-3 pr-5">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner radius-border">
-                                    <div class="carousel-item active d-flex flex-column bg-light pb-3">
-                                        <div class="p-0"><img class="d-block w-100" src="images/carousel.jpg"
-                                                alt="First slide">
-                                        </div>
-                                        <div class="pt-5 pl-4">
-                                            <p class="proza-libre-nav text-secondary pr-5 pl-3">Lorem ipsum dolor sit
-                                                amet,
-                                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                                                et dolore magna aliqua.</p>
-                                            <ol class="carousel-indicators ml-0 float-left"
-                                                style="position: relative !important;">
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="1"
-                                                    class="active"></li>
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                            </ol>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="row pt-5  pl-5">
-                                <div class="col">
-                                    <h4 class="proza-libre-nav text-light">Saznaj više</h4>
-
-                                </div>
-                                <div class="col">
-                                    <img src="images/absoluteLine.png" class="img-fluid abso-line position-absolute"
-                                        alt="Responsive image">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="bg-section-light radius-border">
-                <div class="container pt-5">
-
-                    <div class="row">
-                        <div class="col-lg-4 mt-5 mb-5 pt-5">
-                            <div class="d-flex justify-content-center ml-5 pl-4 mt-2">
-                                <img src="images/oneAbsLine.png" class="img-fluid ml-5 pl-5" alt="Responsive image">
-                            </div>
-
-                            <h1 class=" proza-libre-nav text-center pt-3" style="font-size: 4rem;">Jedan cilj</h1>
-                            <p class="proza-libre-nav text-muted text-center pt-4">Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                            <div class="d-flex justify-content-center mt-5">
-                                <img src="images/justLine.png" class="img-fluid" alt="Responsive image">
-                            </div>
-                            <input type="text" class="form-control mt-5 input-image mb-5 radius-border font-placeholder"
-                                placeholder=" Tražite nešto odredjeno?" style="height: 60px;">
-                        </div>
-
-                        <div class="col-lg-4 pt-5">
-                            <h1 class="proza-libre-nav text-center" style="font-size: 4rem;">Jedan tim</h1>
-                        </div>
-
-                        <div class="col-lg-4 pt-5">
-                            <img src="images/KS.png" class="img-fluid position-absolute margin-ksel"
-                                alt="Responsive image">
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="pt-5 pb-5">
-                <div class="container">
-                    <div class="row pb-4 position-relative">
-                        <div class="col-lg-6">
-                            <h1 class="proza-libre-nav" style="font-size: 4rem;">Naša specijalnost</h1>
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                deserunt mollit anim id est laborum.</p>
-                            <button type="button" class="btn btn-lg radius-border green-bg mt-5 w-50"
-                                style="height: 65px;">
-                                <h4 class="proza-libre-nav pt-2 text-light">Saznaj više</h4>
-                            </button>
-
-                        </div>
-                        <div class="col-lg-6 position-static pl-5">
-                            <img src="images/she.jpg" class="img-fluid radius-border" alt="Responsive image">
-
-                            <div class="position-lg-absolute d-sm-flex d-lg-block horisontal-mid bottom">
-                                <div class="d-flex justify-content-center">
-                                    <div class="w-25 mr-5 pr-5">
-                                        <div class="pt-5">
-                                            <p class="proza-libre-nav text-muted">"Lorem ipsum dolor sit amet,
-                                                consectetur
-                                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                magna
-                                                aliqua."</p>
-                                        </div>
-                                        <div class="p-0">
-                                            <h4 class="proza-libre-nav">Ksenija Sorajić Baković</h4>
-                                        </div>
-                                        <div class="p-0">
-                                            <p class="proza-libre-nav text-muted">Advokat</p>
-                                        </div>
-                                    </div>
-                                    <div class="position-relative w-25">
-                                        <img src="images/lineShe.png" class="position-absolute content-img "
-                                            alt="Responsive image">
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-
-
-            <section class="pt-5 green-bg radius-border pb-5">
-                <div class="container pt-5">
-                    <div class="row">
-                        <div class="col-7">
-                            <h1 class="proza-libre-nav text-light" style="font-size:4rem">Vesti</h1>
-                            <img src="images/absoluteRight.png" class="img-fluid news-line-position"
-                                alt="Responsive image">
-
-                            <div class="padding-texts">
-                                <h2 class="proza-libre-nav text-light mt-4" style="font-size:2.5rem">Lorem ipsum dolor
-                                    sit amet</h2>
-                                <p class="proza-libre-nav text-light  mr-4">Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                    Duis
-                                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                    nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt mollit anim id est laborum.</p>
-                                <hr class=" mr-5 pr-5" style="width: 200px; border:1px solid white;">
-                            </div>
-
-                            <div class="mb-5 pb-5 padding-texts ">
-                                <a href="saznajVise.html" type="button" class="btn float-right" data-toggle="tooltip"
-                                    data-placement="right" title="Saznaj više">
-                                    <p class="text-light pr-4">Saznaj više></p>
-                                </a>
-                            </div>
-
-
-
-                            <button type="button" class="btn btn-light btn-lg text-success radius-border "
-                                style="height: 65px;">
-                                <h4 class="proza-libre-nav pt-2">Prikaži sve vesti</h4>
-                            </button>
-                        </div>
-                        <div class="col-5">
-                            <div class="d-flex flex-column bd-highlight mb-3">
-                                <div class="p-2 bd-highlight">
-                                    <h2 class="proza-libre-nav text-light padding-second-text" style="font-size:2.5rem">
-                                        Lorem ipsum dolor sit amet</h2>
-                                    <p class="proza-libre-nav text-light  mr-4 ">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis
-                                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla
-                                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                        officia
-                                        deserunt mollit anim id est laborum.</p>
-                                    <hr class=" mr-5 pr-5" style="width: 200px; border:1px solid white;">
-
-                                    <div class="mb-5 pb-5">
-                                        <a href="saznajVise.html" type="button" class="btn float-right" data-toggle="tooltip"
-                                            data-placement="right" title="Saznaj više">
-                                            <p class="text-light pr-4">Saznaj više></p>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="p-2 bd-highlight">
-                                    <h2 class="proza-libre-nav text-light padding-second-text" style="font-size:2.5rem">
-                                        Lorem ipsum dolor sit amet</h2>
-                                    <p class="proza-libre-nav text-light pr-5 mr-4">Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.
-                                    </p>
-                                    <hr class=" mr-5 pr-5" style="width: 200px; border:1px solid white;">
-
-                                    <div class="mb-5 pb-5">
-                                        <a href="saznajVise.html" type="button" class="btn float-right" data-toggle="tooltip"
-                                            data-placement="right" title="Saznaj više">
-                                            <p class="text-light pr-4">Saznaj više></p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-
-        </div>
-
-
-        <!-- ***Nasa specijalnost*** -->
-        <div class="tab-pane" id="first" role="tabpanel" aria-labelledby="first-tab">
-
-
-
-            <section class="green-bg radius-border">
-                <div class="container pt-5">
-                    <div class="row">
-                        <div class="col-lg-7">
-                            <h1 class="proza-libre-nav text-light" style="font-size: 4rem;">Naša specijalnost</h1>
-                            <p class="text-light text-padding-7">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                deserunt mollit anim id est laborum.</p>
-                            <div class="row pb-5 mt-5 pt-5">
-                                <div class="col">
-                                    <button type="button"
-                                        class="d-none d-lg-inline btn btn-light btn-lg text-success radius-border proza-libre-nav w-75"
-                                        style="height: 65px;">
-                                        Saznaj Više
-                                    </button>
-                                </div>
-                                <div class="col pt-5">
-                                    <img src="images/absoluteRight.png"
-                                        class="img-fluid  position-absolute pt-5 ml-5  line-absolute-gr"
-                                        alt="Responsive image" style="margin-top: -73px;">
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-5 text-center pb-5">
-                            <img src="images/symbolKSEL.png" class="img-fluid pl-5" alt="Responsive image">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- ***Symbols section*** -->
-            <section class="white-smoke-bg radius-border">
-                <div class="container pt-5 pb-5">
-
-                    <div class="text-center pt-5 pb-5">
-
-                        <div class="row pt-5">
-                            <div class="col-6">
-                                <img src="images/beamScale.png" class="img-fluid" alt="Responsive image">
-                                <h4 class="proza-libre-nav text-center">Konkurencija i regulativa</h4>
-                            </div>
-                            <div class="col-6">
-                                <img src="images/beamScale.png" class="img-fluid" alt="Responsive image">
-                                <h4 class="proza-libre-nav">Radni odnos</h4>
+                            <div class=" vl mt-3 mb-3 ml-lg-5"></div>
+                            <div class="padding-second-text">
+                                <h1 class="proza-libre-nav text-light font-sizing">Profesionalno
+                                    savetovanje u Vašem
+                                    poslovanju</h1>
                             </div>
                         </div>
 
-                        <div class="row pt-5">
-                            <div class="col-6">
-                                <img src="images/puzzles.png" class="img-fluid" alt="Responsive image">
-                                <h4 class="proza-libre-nav">Saglasnost</h4>
+                        <div class="row mb-5 pl-lg-3">
+                            <div class="col-2 ">
+                                <img src="images/lineLeft.png" class="d-none d-lg-inline img-fluid ml-4 mt-3" alt="Responsive image">
                             </div>
-                            <div class="col-6">
-                                <img src="images/puzzles.png" class="img-fluid" alt="Responsive image">
-                                <h4 class="proza-libre-nav">Finansije i osiguranje</h4>
-                            </div>
-                        </div>
-
-                        <div class="row pt-5">
-                            <div class="col-6">
-                                <img src="images/beamScale.png" class="img-fluid" alt="Responsive image">
-                                <h4 class="proza-libre-nav">Korporativna i M&A</h4>
-                            </div>
-                            <div class="col-6">
-                                <img src="images/beamScale.png" class="img-fluid" alt="Responsive image">
-                                <h4 class="proza-libre-nav">Insolventnost i restrukturiranje</h4>
+                            <div class="col-10 mt-5  pl-lg-5">
+                                <h4 class="proza-libre-nav text-light mt-4 mb-0">Lorem Ipsum Dolor Sit Amet</h4>
+                                <p class="proza-libre-nav text-light">Lorem Ipsum Dolor Sit Amet</p>
                             </div>
                         </div>
 
-                        <div class="row pt-5">
-                            <div class="col-6">
-                                <img src="images/puzzles.png" class="img-fluid" alt="Responsive image">
-                                <h4 class="proza-libre-nav">Za[tita podataka</h4>
-                            </div>
-                            <div class="col-6">
-                                <img src="images/puzzles.png" class="img-fluid" alt="Responsive image">
-                                <h4 class="proza-libre-nav">Intelektualna svojina</h4>
-                            </div>
+                        <div class="d-flex ml-5 ">
+                            <img src="images/krline.png" class="d-none d-lg-inline img-fluid ml-5 pl-5" alt="Responsive image">
                         </div>
 
-                        <div class="row pt-5 pb-lg-5">
-                            <div class="col-6">
-                                <img src="images/beamScale.png" class="img-fluid" alt="Responsive image">
-                                <h4 class="proza-libre-nav">Rešavanje sporova i upravljanje rizikom</h4>
-                            </div>
-                            <div class="col-6">
-                                <img src="images/beamScale.png" class="img-fluid" alt="Responsive image">
-                                <h4 class="proza-libre-nav">Nekretnine i građevinarstvo</h4>
-                            </div>
-                        </div>
 
-                        <div class="pt-lg-5">
-                            <h2 class="proza-libre-nav">Konkurencija i regulativa</h2>
-                            <p class="text-muted text-left" style="padding: 0px 292px;">Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                deserunt mollit anim id est laborum.</p>
-                            <hr class="bottom-line mt-5">
-                        </div>
-
-                    </div>
-
-                </div>
-            </section>
-
-            <section class="radius-border">
-
-                <img src="images/justImage.png" class="img-fluid" alt="Responsive image">
-
-            </section>
-        </div>
-
-
-
-
-        <!-- ***Nas tim*** -->
-        <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            <section class="green-bg radius-border">
-                <div class="container pt-5">
-                    <div class="row">
-                        <div class="col-lg-7">
-                            <div class="pt-5">
-                                <h1 class="proza-libre-nav text-light pl-4 mb-4" style="font-size:4rem;">Jedna ideja
-                                </h1>
-                                <p class="text-light text-center text-cntr">Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                </p>
-                            </div>
-
-                            <div class="vert-short-line mt-5"></div>
-                            <div class="row pb-5">
-                                <div class="col">
-                                    <input type="text"
-                                        class="form-control mt-5 input-image mb-5 radius-border font-placeholder w-100"
-                                        placeholder=" Tražite nekoga?" style="height: 60px;">
-                                </div>
-
-                                <div class="col pt-5">
-                                    <img src="images/absoluteRight.png"
-                                        class="img-fluid  position-absolute pt-5 line-margin" alt="Responsive image"
-                                        style="margin-top: -73px;">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 text-center pb-5">
-                            <img src="images/symbolKSEL.png" class="img-fluid pl-5" alt="Responsive image">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <div class="container">
-                    <div class="row pt-5 mt-5">
-                        <div class="col-lg col-6">
-                            <div class="card border-0">
-                                <img class="card-img-top img-radius img-radius" src="images/she.jpg"
-                                    alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text text-muted">"Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-                                    <div class="p-0">
-                                        <h4 class="proza-libre-nav">Ksenija Sorajić Baković</h4>
-                                    </div>
-                                    <div class="p-0">
-                                        <p class="proza-libre-nav text-muted">Advokat</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg col-6">
-                            <div class="card border-0">
-                                <img class="card-img-top img-radius" src="images/she.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text text-muted">"Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-                                    <div class="p-0">
-                                        <h4 class="proza-libre-nav">Ksenija Sorajić Baković</h4>
-                                    </div>
-                                    <div class="p-0">
-                                        <p class="proza-libre-nav text-muted">Advokat</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg col-6">
-                            <div class="card border-0">
-                                <img class="card-img-top img-radius" src="images/she.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text text-muted">"Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-                                    <div class="p-0">
-                                        <h4 class="proza-libre-nav">Ksenija Sorajić Baković</h4>
-                                    </div>
-                                    <div class="p-0">
-                                        <p class="proza-libre-nav text-muted">Advokat</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg col-6">
-                            <div class="card border-0">
-                                <img class="card-img-top img-radius" src="images/she.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text text-muted">"Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-                                    <div class="p-0">
-                                        <h4 class="proza-libre-nav">Ksenija Sorajić Baković</h4>
-                                    </div>
-                                    <div class="p-0">
-                                        <p class="proza-libre-nav text-muted">Advokat</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-
-
-
-        <!-- ***Vesti*** -->
-        <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
-            <section class="green-bg radius-border">
-                <div class="container pt-5">
-                    <div class="row">
-                        <div class="col-lg-7">
-                            <div class="pt-5">
-                                <h1 class="proza-libre-nav text-light mb-4" style="font-size:4rem;">Vesti</h1>
-                                <p class="text-light text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                    sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                    Duis
-                                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                    nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt mollit anim id est laborum.</p>
-                            </div>
-
-                            <div class="row pb-5">
-                                <div class="col pt-5">
-                                    <button type="button"
-                                        class="d-none d-lg-inline btn btn-light btn-lg  radius-border proza-libre-nav w-75"
-                                        style="height: 65px;">
-                                        Aktuelne vesti
-                                    </button>
-                                </div>
-
-                                <div class="col pt-5">
-                                    <img src="images/absoluteRight.png"
-                                        class="img-fluid  position-absolute pt-5 line-margin" alt="Responsive image"
-                                        style="margin-top: -73px;">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 text-center pb-5">
-                            <img src="images/symbolKSEL.png" class="img-fluid pl-5" alt="Responsive image">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <div class="container pt-5">
-                    <div class="row">
-                        <div class="col-7 pt-5 mt-5">
-                            <div class="padding-texts pt-5">
-                                <h2 class="proza-libre-nav text-muted mt-4" style="font-size:2.5rem">Lorem ipsum dolor
-                                    sit amet</h2>
-                                <p class="proza-libre-nav text-muted  mr-4">Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed
-                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                    veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                    Duis
-                                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                    nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt mollit anim id est laborum.</p>
-                                <hr class=" mr-5 pr-5" style="width: 200px; border:1px solid #afafaf;">
-                            </div>
-
-                            <div class="mb-5 pb-5 padding-texts ">
-                                <button type="button" class="btn float-right" data-toggle="tooltip"
-                                    data-placement="right" title="Tooltip on right">
-                                    <p class="text-muted pr-4">Saznaj više></p>
+                        <div class="row pb-5 mt-5">
+                            <div class="col">
+                                <button type="button"
+                                    class=" btn btn-light btn-lg radius-border w-100 button-font-style py-3">
+                                    Naša specijalnost
                                 </button>
                             </div>
-
-
-
-                            <button type="button" class="btn green-bg btn-lg text-success radius-border "
-                                style="height: 65px;">
-                                <h4 class="proza-libre-nav text-light pt-2">Prikaži sve vesti</h4>
-                            </button>
+                            <div class="col pt-4">
+                                <img src="images/absoluteRight.png" class="d-none d-lg-inline img-fluid ml-5 position-absolute"
+                                    alt="Responsive image">
+                            </div>
                         </div>
-                        <div class="col-5">
-                            <div class="d-flex flex-column bd-highlight mb-3">
-                                <div class="p-2 bd-highlight">
-                                    <h2 class="proza-libre-nav text-muted padding-second-text" style="font-size:2.5rem">
-                                        Lorem ipsum dolor sit amet</h2>
-                                    <p class="proza-libre-nav text-muted  mr-4 ">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis
-                                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla
-                                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                        officia
-                                        deserunt mollit anim id est laborum.</p>
-                                    <hr class=" mr-5 pr-5" style="width: 200px; border:1px solid #afafaf;">
 
-                                    <div class="mb-5 pb-5">
-                                        <button type="button" class="btn float-right" data-toggle="tooltip"
-                                            data-placement="right" title="Tooltip on right">
-                                            <p class="text-muted pr-4">Saznaj više></p>
-                                        </button>
+                    </div>
+
+                    <div class="col-lg-6 col-12 pl-lg-5 mb-3 pr-lg-5">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner radius-border">
+                                <div class="carousel-item active d-flex flex-column bg-light pb-3">
+                                    <div class="p-0"><img class="d-block w-100" src="images/carousel.jpg"
+                                            alt="First slide">
+                                    </div>
+                                    <div class="pt-5 pl-lg-4">
+                                        <p class="proza-libre-nav text-secondary pr-5 pl-3">Lorem ipsum dolor sit
+                                            amet,
+                                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                            et dolore magna aliqua.</p>
+                                        <ol class="carousel-indicators ml-0 float-left position-relative">
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="1"
+                                                class="active"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                        </ol>
                                     </div>
                                 </div>
-                                <div class="p-2 bd-highlight">
-                                    <h2 class="proza-libre-nav text-muted padding-second-text" style="font-size:2.5rem">
-                                        Lorem ipsum dolor sit amet</h2>
-                                    <p class="proza-libre-nav text-muted pr-5 mr-4">Lorem ipsum dolor sit amet,
+
+                            </div>
+                        </div>
+
+                        <div class="row pt-5  pl-5">
+                            <div class="col">
+                                <h4 class="proza-libre-nav text-light">Saznaj više</h4>
+
+                            </div>
+                            <div class="col">
+                                <img src="images/absoluteLine.png" class="img-fluid abso-line position-absolute"
+                                    alt="Responsive image">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-section-light radius-border">
+            <div class="container pt-5">
+
+                <div class="row">
+                    <div class="col-lg-4 mt-5 mb-5 pt-5">
+                        <div class="d-flex justify-content-center ml-5 pl-4 mt-2">
+                            <img src="images/oneAbsLine.png" class="img-fluid ml-5 pl-5" alt="Responsive line">
+                        </div>
+
+                        <h1 class=" proza-libre-nav text-center pt-3 font-sizing">Jedan cilj</h1>
+                        <p class="proza-libre-nav text-muted text-center pt-4">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <div class="d-flex justify-content-center mt-5">
+                            <img src="images/justLine.png" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <input type="text" class="form-control mt-5 input-image mb-5 radius-border font-placeholder"
+                            placeholder=" Tražite nešto odredjeno?" style="height: 60px;">
+                    </div>
+
+                    <div class="col-lg-4 pt-5">
+                        <h1 class="proza-libre-nav text-center font-sizing">Jedan tim</h1>
+                    </div>
+
+                    <div class="col-lg-4 pt-3 mt-5">
+                        <img src="images/KS.png" class="img-fluid position-absolute margin-ksel" alt="Responsive image">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5 pb-5 mt-5">
+            <div class="container pt-5">
+                <div class="row pb-4 position-relative">
+                    <div class="col-lg-6">
+                        <h1 class="proza-libre-nav font-sizing">Naša specijalnost</h1>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.</p>
+
+                        <button type="button"
+                            class="btn btn-lg radius-border green-bg mt-5 w-50 button-font-style text-light py-3">
+                            Saznaj više
+                        </button>
+
+
+                    </div>
+                    <div class="col-lg-6 position-static pl-5">
+                        <img src="images/she.jpg" class="img-fluid radius-border" alt="Responsive image">
+
+                        <div class="position-lg-absolute d-sm-flex d-lg-block horisontal-mid bottom">
+                            <div class="d-flex justify-content-center">
+                                <div class="w-25 mr-5 pr-5">
+                                    <div class="pt-5">
+                                        <p class="proza-libre-nav text-muted">"Lorem ipsum dolor sit amet,
+                                            consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                            magna
+                                            aliqua."</p>
+                                    </div>
+                                    <div class="p-0">
+                                        <h4 class="proza-libre-nav">Ksenija Sorajić Baković</h4>
+                                    </div>
+                                    <div class="p-0">
+                                        <p class="proza-libre-nav text-muted">Advokat</p>
+                                    </div>
+                                </div>
+                                <div class="position-relative w-25">
+                                    <img src="images/lineShe.png" class="position-absolute content-img "
+                                        alt="Responsive image">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="pt-5 green-bg radius-border pb-5">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-7">
+                        <h1 class="proza-libre-nav text-light font-sizing">Vesti</h1>
+                        <img src="images/absoluteRight.png" class="img-fluid news-line-position" alt="Responsive image">
+
+                        <div class="padding-texts">
+                            <h2 class="proza-libre-nav text-light mt-4" style="font-size:2.5rem">Lorem ipsum dolor
+                                sit amet</h2>
+                            <p class="proza-libre-nav text-light  mr-4">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis
+                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                deserunt mollit anim id est laborum.</p>
+                            <hr class=" mr-4 w-50 line-style">
+                        </div>
+
+                        <div class="mb-5 pb-5 padding-texts ">
+                            <a href="saznajVise.html" type="button" class="btn float-right" data-toggle="tooltip"
+                                data-placement="right" title="Saznaj više">
+                                <p class="text-light pr-4">Saznaj više></p>
+                            </a>
+                        </div>
+
+
+
+                        <button type="button" class="btn btn-light btn-lg radius-border button-font-style py-3 px-5">
+                            Prikaži sve vesti
+                        </button>
+                    </div>
+                    <div class="col-5">
+                        <div class="d-flex flex-column bd-highlight mb-3">
+                            <div class="p-2 bd-highlight">
+                                <h2 class="proza-libre-nav text-light padding-second-text" style="font-size:2.5rem">
+                                    Lorem ipsum dolor sit amet</h2>
+                                <p class="proza-libre-nav text-light  mr-4 ">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis
+                                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                    fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                    officia
+                                    deserunt mollit anim id est laborum.</p>
+                                <hr class=" mr-5 pr-5 w-50 line-style">
+
+                                <div class="mb-5 pb-5">
+                                    <a href="saznajVise.html" type="button" class="btn float-right"
+                                        data-toggle="tooltip" data-placement="right" title="Saznaj više">
+                                        <p class="text-light pr-4">Saznaj više></p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="p-2 bd-highlight">
+                                <h2 class="proza-libre-nav text-light padding-second-text" style="font-size:2.5rem">
+                                    Lorem ipsum dolor sit amet</h2>
+
+                                <div class="padd-85px-right">
+                                    <p class="proza-libre-nav text-light">Lorem ipsum dolor sit amet,
                                         consectetur adipiscing elit, sed
                                         do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                         veniam,
                                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                         consequat.
                                     </p>
-                                    <hr class=" mr-5 pr-5" style="width: 200px; border:1px solid #afafaf;">
-
+                                    <hr class="mr-0 w-75 line-style">
                                     <div class="mb-5 pb-5">
-                                        <button type="button" class="btn float-right" data-toggle="tooltip"
-                                            data-placement="right" title="Tooltip on right">
-                                            <p class="text-muted pr-4">Saznaj više></p>
-                                        </button>
+                                        <a href="saznajVise.html" type="button" class="btn float-right"
+                                            data-toggle="tooltip" data-placement="right" title="Saznaj više">
+                                            <p class="text-light pr-4">Saznaj više></p>
+                                        </a>
                                     </div>
                                 </div>
+
+
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+
+        </section>
 
 
 
 
-        <!-- ***Karijera*** -->
-        <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">KARIJERA</div>
-        <!-- ***O nama*** -->
-        <div class="tab-pane" id="about" role="tabpanel" aria-labelledby="about-tab">O nama</div>
-
-
-        <!-- ***Kontakt*** -->
-        <div class="tab-pane" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-            <section class="green-bg radius-border">
-                <div class="container pt-5">
-                    <div class="row">
-                        <div class="col-lg-7">
-                            <h1 class="proza-libre-nav text-light" style="font-size: 4rem;">Kontakt</h1>
-                            <p class="text-light text-padding-7">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                deserunt mollit anim id est laborum.</p>
-                            <div class="row pb-5 mt-5 pt-5">
-                                <div class="col">
-                                    <button type="button"
-                                        class="d-none d-lg-inline btn btn-light btn-lg text-success radius-border proza-libre-nav w-75"
-                                        style="height: 65px;">
-                                        Prikazi na mapi
-                                    </button>
-                                </div>
-                                <div class="col pt-5">
-                                    <img src="images/absoluteRight.png"
-                                        class="img-fluid  position-absolute pt-5  line-absolute-gr"
-                                        alt="Responsive image" style="margin-top: -73px;">
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-5 text-center pb-5">
-                            <img src="images/symbolKSEL.png" class="img-fluid pl-5" alt="Responsive image">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="radius-border">
-                <img src="images/map.png" class="img-fluid" alt="Responsive image">
-            </section>
-        </div>
 
     </main>
 
-
     <!-- ***FOOTER*** -->
-    <div class="container-fluid tab-content padding-main mb-5">
+    <div class="container-fluid  padding-main mb-5">
         <footer class="bg-section-light radius-border pt-5">
             <div class="container pb-5">
                 <div class="row pt-5 pb-5">
@@ -825,15 +398,23 @@
                             </div>
                             <div class="col-6 d-flex">
                                 <div class=" align-self-end pl-5 ml-4">
+
+                                    <i class="fa fa-facebook text-light fa-2x rounded-circle bg-dark"
+                                        aria-hidden="true"></i>
+
                                     <a href="https://www.facebook.com/" class="btn p-0" role="button"
-                                        aria-pressed="true"><img src="images/facebook.png" class="img-fluid"
-                                            alt="Responsive image"></a>
-                                    <a href="https://www.linkedin.com/" class="btn p-0" role="button"
-                                        aria-pressed="true"><img src="images/linkedin.png" class="img-fluid"
-                                            alt="Responsive image"></a>
-                                    <a href="https://www.instagram.com/" class="btn p-0" role="button"
-                                        aria-pressed="true"><img src="images/instagram.png" class="img-fluid"
-                                            alt="Responsive image"></a>
+                                        aria-pressed="true"><i class="fa fa-facebook text-light fa-2x"
+                                            aria-hidden="true"></i></a>
+
+                                    <a href="https://www.linkedin.com/" class="btn p-0 rounded-circle" role="button"
+                                        aria-pressed="true"><i class="fa fa-linkedin text-light fa-2x"
+                                            aria-hidden="true"></i></a>
+
+                                    <a href="https://www.instagram.com/" class="btn p-0 rounded-circle" role="button"
+                                        aria-pressed="true"><i class="fa fa-instagram text-light fa-2x"
+                                            aria-hidden="true"></i></a>
+
+
                                 </div>
                             </div>
                         </div>
@@ -843,57 +424,51 @@
                             <ul class="nav tabs justify-content-end" id="myTab" role="tablist">
 
                                 <li class="nav-item  pr-2 mt-3">
-                                    <a class="nav-link proza-libre-nav pt-0 pb-0  pr-3 sp-border-right" id="first-tab"
-                                        data-toggle="tab" href="#first" role="tab" aria-controls="first"
-                                        aria-selected="false">
+                                    <a href="nasaSpec.html"
+                                        class="nav-link proza-libre-nav pt-0 pb-0  pr-3 sp-border-right">
                                         <p class="source-sans-card-text">Naša specijalnost</p>
                                     </a>
                                 </li>
                                 <li class="nav-item  pr-2 mt-3">
-                                    <a class="nav-link proza-libre-nav pt-0 pb-0 sp-border-right pr-3 pl-2"
-                                        id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                                        aria-controls="profile" aria-selected="false">
+                                    <a href="nasTim.html"
+                                        class="nav-link proza-libre-nav pt-0 pb-0 sp-border-right pr-3 pl-2">
                                         <p class="source-sans-card-text">Naš tim</p>
                                     </a>
                                 </li>
 
                                 <li class="nav-item  pr-2 mt-3">
-                                    <a class="nav-link proza-libre-nav pt-0 pb-0 sp-border-right pr-3 pl-2"
-                                        id="messages-tab" data-toggle="tab" href="#messages" role="tab"
-                                        aria-controls="messages" aria-selected="false">
+                                    <a href="vesti.html"
+                                        class="nav-link proza-libre-nav pt-0 pb-0 sp-border-right pr-3 pl-2">
                                         <p class="source-sans-card-text">Vesti</p>
                                     </a>
                                 </li>
+
                                 <li class="nav-item  pr-2 mt-3">
-                                    <a class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right"
-                                        id="settings-tab" data-toggle="tab" href="#settings" role="tab"
-                                        aria-controls="settings" aria-selected="false">
+                                    <a href="#"
+                                        class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right">
                                         <p class="source-sans-card-text">Karijera</p>
                                     </a>
                                 </li>
 
                                 <li class="nav-item  pr-2 mt-3">
-                                    <a class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right"
-                                        id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about"
-                                        aria-selected="false">
+                                    <a href="#" class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right">
                                         <p class="source-sans-card-text">O nama</p>
                                     </a>
                                 </li>
 
                                 <li class="nav-item  pr-2 mt-3">
-                                    <a class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right border-0"
-                                        id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                                        aria-controls="contact" aria-selected="false">Kontakt</a>
+                                    <a href="kontakt.html"
+                                        class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right border-0">Kontakt</a>
                                 </li>
 
                             </ul>
                         </div>
                         <div class=" pl-3 pr-3">
                             <input type="text"
-                                class="form-control mt-3 input-image mb-5 button-radius border-0 font-placeholder"
-                                placeholder=" Traži" style="height: 60px;">
-                            <h5 class="text-muted text-right pt-4">KSEL Advokati | Sva prava zadrzana,2020. Built by
-                                Singularity.is</h5>
+                                class="form-control mt-3 input-image mb-5 border-0 font-placeholder input-h pl-5 "
+                                placeholder=" Traži">
+                            <p class="text-muted text-center pt-4">KSEL Advokati | Sva prava zadrzana,2020. Built by
+                                Singularity.is</p>
                         </div>
 
                     </div>
@@ -904,13 +479,8 @@
     </div>
 
 
-
-
-
-
-    <script src="https://use.fontawesome.com/ecb89f1714.js"></script>
-    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
-    <!-- ****BOOTSTRAP JS links(scripts)**** -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -920,8 +490,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-
 </body>
-
 
 </html>

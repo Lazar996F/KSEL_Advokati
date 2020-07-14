@@ -5,17 +5,12 @@ body {
     font-family: 'Proza Libre', sans-serif !important;
   }
 
-.sp-border-right {
-    border-right: 2px solid #2b5d38;
-    line-height: 18px;
-  }
+
 
 
   .proza-libre-nav{
   font-family: 'Proza Libre', sans-serif;
   color:#1f692a!important;
-  font-weight:normal;
-  
   }
 
   .banner-wrapper {
@@ -114,7 +109,7 @@ a:hover {
 }
 
 .font-placeholder{
-  font-size:24px!important;
+  font-size:26px!important;
 }
 
 .horisontal-mid {
@@ -128,9 +123,7 @@ a:hover {
 .padding-texts{
   padding-right: 95px!important;
 }
-.padding-second-text{
-  padding-right: 231px;
-}
+
 
 .carousel-indicators .active {
   opacity: 1;
@@ -150,11 +143,22 @@ a:hover {
 }
 
 
-/* SM Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  
- 
+
+.line-style{
+  border:1px solid #d7d8da;
+}
+
+
+
+.button-font-style{
+  font-family: 'Proza Libre', sans-serif;
+  color:#1f692a!important;
+  font-size: 12px!important;
 }
  
+
+
+
 /* MD Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
  
@@ -163,9 +167,45 @@ a:hover {
    border:1px solid #a5a5a7;
  }
 
+ .padding-bot5{
+   padding-bottom: 5rem!important;
+ }
 
+ .font-sizing{
+   font-size:4rem!important;
+ }
+
+
+ .padding-second-text{
+  padding-right: 231px;
+}
+.padd-85px-right{
+  padding-right: 85px;
+}
+
+.input-h{
+  height: calc(1.5em + 0.75rem + 17px)!important;
+  border-radius:3rem!important;
+}
+
+.text-cntr{
+  padding-right:346px;
+}
+
+.proza-libre-nav{
+  font-family: 'Proza Libre', sans-serif;
+  color:#1f692a!important;
+  font-weight:normal;
+  
+  }
+  .sp-border-right {
+    border-right: 2px solid #2b5d38;
+    line-height: 18px;
+  }
 }
  
+
+
 /* LG Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   .position-lg-absolute {
@@ -182,9 +222,7 @@ a:hover {
     padding-right: 7rem!important;
   }
 
-  .text-cntr{
-    padding-right:390px;
-  }
+
 
   .line-margin{
     margin-top: -21px!important;
@@ -202,6 +240,12 @@ a:hover {
     padding-left: 86px!important;
     padding-right: 86px!important;
    }
+
+   .button-font-style{
+    font-family: 'Proza Libre', sans-serif;
+    color:#1f692a!important;
+    font-size: 24px!important;
+  }
 
 }
  
