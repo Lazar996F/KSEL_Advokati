@@ -80,9 +80,7 @@ body {
    background-color: #d3d4d6a4!important;
  }
 
- .margin-ksel{
-  margin-top: -349px;
- }
+
   
  .input-image {
   background-image: url('images/search.png');
@@ -109,7 +107,7 @@ a:hover {
 }
 
 .font-placeholder{
-  font-size:26px!important;
+  font-size:17px!important;
 }
 
 .horisontal-mid {
@@ -120,9 +118,7 @@ a:hover {
 .bottom {
   bottom: 0;
 }
-.padding-texts{
-  padding-right: 95px!important;
-}
+
 
 
 .carousel-indicators .active {
@@ -150,12 +146,55 @@ a:hover {
 
 
 
-.button-font-style{
+.button-font-style {
   font-family: 'Proza Libre', sans-serif;
   color:#1f692a!important;
   font-size: 12px!important;
 }
  
+.font-size-small { 
+  font-size: 16px;
+}
+
+.fs-small-13 {
+  font-size: 13px;
+}
+
+.line-small-block {
+  height: 6rem!important;
+  margin-top: 15rem;
+  margin-left: 12rem;
+}
+
+.negative-margin-top{
+  margin-top: -2rem;
+}
+
+
+.padd-sm-r{
+  padding-right: 10rem;
+}
+
+
+
+.margin-ksel {
+  height: 17rem!important;
+  margin-top: -26rem;
+  margin-left: 15rem;
+ }
+
+ .trap-line{
+  height: 5rem;
+  margin-top: -5rem;
+  margin-left: 2rem;
+ }
+
+.font-title{
+  font-size: 24px;
+    padding-right: 9rem;
+    line-height: 39px;
+  
+}
 
 
 
@@ -177,11 +216,9 @@ a:hover {
 
 
  .padding-second-text{
-  padding-right: 231px;
+  padding-right: 235px;
 }
-.padd-85px-right{
-  padding-right: 85px;
-}
+
 
 .input-h{
   height: calc(1.5em + 0.75rem + 17px)!important;
@@ -201,6 +238,39 @@ a:hover {
   .sp-border-right {
     border-right: 2px solid #2b5d38;
     line-height: 18px;
+  }
+
+  .font-size-small{
+    font-size: 25px;
+  }
+
+
+  .fs-small-13{
+    font-size: 17px;
+  }
+
+  .margin-line{
+    margin-left: -17rem;
+  }
+
+   .relative-row{
+    bottom:50px;
+   }
+
+   .font-placeholder{
+    font-size:26px!important;
+  }
+
+  .padd-85px-right{
+    padding-right: 85px;
+  }
+  .negative-marg{
+
+    margin-top: -350px;
+  }
+
+  .font-title{
+    font-size: 37px;
   }
 }
  
@@ -237,8 +307,8 @@ a:hover {
   }
 
   .padding-main{
-    padding-left: 86px!important;
-    padding-right: 86px!important;
+    padding-left: 90px!important;
+    padding-right: 90px!important;
    }
 
    .button-font-style{
@@ -247,6 +317,22 @@ a:hover {
     font-size: 24px!important;
   }
 
+  .margin-ksel{
+    margin-top: -33rem;
+    margin-left: 14rem;
+    height:70rem!important;
+   }
+
+   .wid-th{
+     width:25%;
+   }
+   .padd-just-txt{
+    padding-right: 83px;
+  }
+
+  .padding-texts{
+    padding-right: 95px;
+  }
 }
  
 
