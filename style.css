@@ -350,11 +350,42 @@ padding-left: 8px;
     margin-top: auto;
   }
 
-  
+  .negmarg{
+    margin-top:-73px;
+  }
+
+  .font-placeholder{
+    font-size:17px!important;
+  }
 }
  
 
+button:focus{
+  outline: 0!important;
+}
 
+.nav-item.active a{
+  background-color: #1c6e26;
+  border-radius: 30px;
+  height: 35px!important;
+  padding-top: 7px!important;
+  color:white!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ****************************************MEDIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((*/
 /* LG Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   .position-lg-absolute {
@@ -422,6 +453,10 @@ padding-left: 8px;
     margin-top:-9rem;
 }
 
+.txt-padding-large{
+  padding: 0px 292px;
+}
+
 
 }
 
@@ -447,17 +482,15 @@ padding-left: 8px;
     width: 100%!important;
   }
 
+
+
+.fs-smalling{
+  font-size:14px;
 }
 
-button:focus{
-  outline: 0!important;
+.margInp{
+      margin-right: -8rem;
+      margin-left: auto;
 }
 
-.nav-item.active a{
-  background-color: #1c6e26;
-  border-radius: 30px;
-  height: 35px!important;
-  padding-top: 7px!important;
-  color:white!important;
 }
-
