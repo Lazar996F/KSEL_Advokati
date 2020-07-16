@@ -17,57 +17,86 @@
   <body>
    
 
-    <header class="container-fluid">
-        <nav class="container px-0 navbar navbar-expand-lg navbar-light justify-content-between tab-pane active"
-            id="home" role="tabpanel" aria-labelledby="home-tab">
-            <div class="mt-3">
-                <a class="navbar-brand" href="index.html"><img src="images/ksel.png" class="rounded pb-4 "
+    <header class="container-md-fluid">
+        <nav class="container px-0 navbar navbar-expand-lg navbar-light d-flex justify-content-between tab-pane active position-relative"
+            role="tabpanel" aria-labelledby="home-tab">
+            <div class="row mt-3">
+
+
+                <a class="col-10 navbar-brand mr-0" href="index.html"><img src="images/ksel.png" class="rounded pb-4 "
                         alt="..."></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+
+                <button class="col-2 navbar-toggler border-0 pb-5" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-three-dots-vertical proza-libre-nav" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                      </svg></span>
                 </button>
+
             </div>
 
-            <div class="nav  collapse navbar-collapse justify-content-end pl-3 ml-4  border-bottom-0"
+            <div class="nav collapse navbar-collapse justify-content-start justify-content-lg-end pl-md-3 ml-md-4  border-bottom-0 content-over"
                 id="navbarNavDropdown">
 
-                <ul class="nav justify-content-end">
+                <!-- ***Just for mobile display*** -->
+                <div class="row d-md-none">
+                    <div class="col-2 d-flex pl-4">
+                        <select class=" border-0 p-0 bg-transparent" id="exampleFormControlSelect1"
+                            style="color: #005012;">
+                            <option>
+                                <p class="proza-libre-nav">SR</p>
+                            </option>
+                            <option>
+                                <p class="proza-libre-nav">HR</p>
+                            </option>
+                            <option>
+                                <p class="proza-libre-nav">BS</p>
+                            </option>
+                        </select>
+                    </div>
+                    <div class="col-10 pl-5 pr-5">
+                        <input type="text" class="form-control  input-image radius-border font-placeholder pr-5"
+                        placeholder=" Traži">
+                    </div>
 
-                    <li class="nav-item  pr-2 mt-3">
-                        <a href="nasaSpec.html" class="nav-link proza-libre-nav pt-0 pb-0  pr-3 sp-border-right">
-                            <p class="source-sans-card-text">Naša specijalnost</p>
-                        </a>
-                    </li>
-                    <li class="nav-item  pr-2 mt-3">
-                        <a href="nasTim.html" class="nav-link proza-libre-nav pt-0 pb-0 sp-border-right pr-3 pl-2">
-                            <p class="source-sans-card-text">Naš tim</p>
+                </div>
+                <ul class="d-md-flex nav d-block">
+
+                    <li class="nav-item pr-lg-2 mt-3  selecting-bg">
+                         <a href="nasaSpec.html" class="nav-link proza-libre-nav pt-0 pb-0 pl-3 pl-md-2 pr-lg-3 sp-border-right active source-sans-card-text">
+                            Naša specijalnost
                         </a>
                     </li>
 
-                    <li class="nav-item  pr-2 mt-3">
-                        <a href="vesti.html" class="nav-link proza-libre-nav pt-0 pb-0 sp-border-right pr-3 pl-2">
-                            <p class="source-sans-card-text">Vesti</p>
-                        </a>
-                    </li>
-                    <li class="nav-item  pr-2 mt-3">
-                        <a href="#" class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right">
-                            <p class="source-sans-card-text">Karijera</p>
+                    <li class="nav-item  pr-lg-2 mt-3">
+                        <a href="nasTim.html" class="nav-link proza-libre-nav pt-0 pb-0 sp-border-right pr-3 pl-3 pl-md-2 source-sans-card-text">
+                            Naš tim
                         </a>
                     </li>
 
-                    <li class="nav-item  pr-2 mt-3">
-                        <a href="#" class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right">
-                            <p class="source-sans-card-text">O nama</p>
+                    <li class="nav-item  pr-lg-2 mt-3 active">
+                        <a href="vesti.html" class="nav-link proza-libre-nav pt-0 pb-0 sp-border-right pr-3 pl-3 pl-md-2 source-sans-card-text">
+                            Vesti
+                        </a>
+                    </li>
+                    <li class="nav-item  pr-lg-2 mt-3">
+                        <a href="#" class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-3 pl-md-2 sp-border-right source-sans-card-text">
+                           Karijera
                         </a>
                     </li>
 
-                    <li class="nav-item  pr-2 mt-3">
+                    <li class="nav-item  pr-lg-2 mt-3">
+                        <a href="#" class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-3 pl-md-2 sp-border-right source-sans-card-text">
+                            O nama
+                        </a>
+                    </li>
+
+                    <li class="nav-item  pr-lg-2 mt-3">
                         <a href="kontakt.html"
-                            class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right border-0">Kontakt</a>
+                            class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-3 pl-md-2 sp-border-right border-0">Kontakt</a>
                     </li>
 
-                    <li class="nav-item mt-2 pr-2">
+                    <li class="nav-item mt-2 pr-lg-2 d-none d-md-inline">
                         <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-search mr-5" fill="currentColor"
                             xmlns="http://www.w3.org/2000/svg" style="color: rgb(159, 171, 183);">
                             <path fill-rule="evenodd"
@@ -78,7 +107,7 @@
                     </li>
 
 
-                    <li class="pt-1">
+                    <li class="pt-1 d-none d-md-inline">
                         <select class="form-control border-0 p-0" id="exampleFormControlSelect1"
                             style="color: #005012;">
                             <option>
@@ -88,7 +117,7 @@
                                 <p class="proza-libre-nav">HR</p>
                             </option>
                             <option>
-                                <p class="proza-libre-nav">BOS</p>
+                                <p class="proza-libre-nav">BS</p>
                             </option>
                         </select>
                     </li>
@@ -223,93 +252,64 @@
     </main>
 
     
-      <!-- ***FOOTER*** -->
-      <div class="container-fluid  padding-main mb-5">
-        <footer class="bg-section-light radius-border pt-5">
+    <!-- ***FOOTER*** -->
+    <footer class="container-md-fluid  padding-main mb-5">
+        <div class="bg-section-light radius-border pt-5">
             <div class="container pb-5">
                 <div class="row pt-5 pb-5">
                     <div class="col-6">
                         <div class="row">
-                            <div class="col-6">
-
-
-                                <div class="p-2">
-                                    <img src="images/kselLogo.png" class="img-fluid" alt="Responsive image">
-                                </div>
-
-                            </div>
-                            <div class="col-6 d-flex">
-                                <div class=" align-self-end pl-5 ml-4">
-
-                                    <i class="fa fa-facebook text-light fa-2x rounded-circle bg-dark"
-                                        aria-hidden="true"></i>
-
-                                    <a href="https://www.facebook.com/" class="btn p-0" role="button"
-                                        aria-pressed="true"><i class="fa fa-facebook text-light fa-2x"
-                                            aria-hidden="true"></i></a>
-
-                                    <a href="https://www.linkedin.com/" class="btn p-0 rounded-circle" role="button"
-                                        aria-pressed="true"><i class="fa fa-linkedin text-light fa-2x"
-                                            aria-hidden="true"></i></a>
-
-                                    <a href="https://www.instagram.com/" class="btn p-0 rounded-circle" role="button"
-                                        aria-pressed="true"><i class="fa fa-instagram text-light fa-2x"
-                                            aria-hidden="true"></i></a>
-
-
-                                </div>
-                            </div>
+                            <img src="images/kselLogo.png" class="img-fluid" alt="Responsive image">
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="">
-                            <ul class="nav tabs justify-content-end" id="myTab" role="tablist">
+                    <div class="col-lg-6 col-5">
+                            <ul class="nav tabs justify-content-end mb-4" id="myTab" role="tablist">
 
-                                <li class="nav-item  pr-2 mt-3">
+                                <li class="nav-item  pr-md-2 mt-md-3">
                                     <a href="nasaSpec.html"
-                                        class="nav-link proza-libre-nav pt-0 pb-0  pr-3 sp-border-right">
-                                        <p class="source-sans-card-text">Naša specijalnost</p>
+                                        class="nav-link proza-libre-nav pt-0 pb-0  pr-lg-3 pl-0 pr-0 sp-border-right">
+                                        <p class="source-sans-card-text list-font-size mb-1 pr-3 p-md-0">Naša specijalnost</p>
                                     </a>
                                 </li>
-                                <li class="nav-item  pr-2 mt-3">
+                                <li class="nav-item  pr-md-2 mt-md-3">
                                     <a href="nasTim.html"
                                         class="nav-link proza-libre-nav pt-0 pb-0 sp-border-right pr-3 pl-2">
-                                        <p class="source-sans-card-text">Naš tim</p>
+                                        <p class="source-sans-card-text list-font-size mb-1">Naš tim</p>
                                     </a>
                                 </li>
 
-                                <li class="nav-item  pr-2 mt-3">
+                                <li class="nav-item  pr-md-2 mt-md-3">
                                     <a href="vesti.html"
                                         class="nav-link proza-libre-nav pt-0 pb-0 sp-border-right pr-3 pl-2">
-                                        <p class="source-sans-card-text">Vesti</p>
+                                        <p class="source-sans-card-text list-font-size mb-1">Vesti</p>
                                     </a>
                                 </li>
 
-                                <li class="nav-item  pr-2 mt-3">
+                                <li class="nav-item  pr-md-2 mt-md-3">
                                     <a href="#"
                                         class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right">
-                                        <p class="source-sans-card-text">Karijera</p>
+                                        <p class="source-sans-card-text list-font-size mb-1">Karijera</p>
                                     </a>
                                 </li>
 
-                                <li class="nav-item  pr-2 mt-3">
+                                <li class="nav-item  pr-md-2 mt-md-3">
                                     <a href="#" class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right">
-                                        <p class="source-sans-card-text">O nama</p>
+                                        <p class="source-sans-card-text list-font-size mb-1">O nama</p>
                                     </a>
                                 </li>
 
-                                <li class="nav-item  pr-2 mt-3">
+                                <li class="nav-item  pr-md-2 mt-md-3">
                                     <a href="kontakt.html"
-                                        class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right border-0">Kontakt</a>
+                                        class="nav-link proza-libre-nav pt-0 pb-0 pr-3 pl-2 sp-border-right border-0 list-font-size">Kontakt</a>
                                 </li>
 
                             </ul>
-                        </div>
-                        <div class=" pl-3 pr-3">
+                       
+                        <div class="pl-md-3 pr-md-3 input-negative-marg">
                             <input type="text"
-                                class="form-control mt-3 input-image mb-5 border-0 font-placeholder input-h pl-5 "
+                                class="form-control mt-3 input-image mb-5 border-0 font-placeholder input-h pl-5 radius-border "
                                 placeholder=" Traži">
-                            <p class="text-muted text-center pt-4">KSEL Advokati | Sva prava zadrzana,2020. Built by
+                            <p class="text-muted text-center fs-small-13 pt-4">KSEL Advokati | Sva prava zadrzana,2020. Built by
                                 Singularity.is</p>
                         </div>
 
@@ -317,8 +317,23 @@
                 </div>
             </div>
 
-        </footer>
-    </div>
+            <div class="row position-absolute fawesome-position">
+                <a href="https://www.facebook.com/" class="rounded-circle bg-secondary mr-3">
+                    <i class="fa fa-facebook fa text-light fa-2x" aria-hidden="true"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/" class="rounded-circle bg-secondary mr-3">
+                    <i class="fa fa-linkedin fa text-light fa-2x pt-1"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" class="rounded-circle bg-secondary">
+                    <i class="fa fa-instagram fa text-light fa-2x"></i>
+                </a>
+            </div>
+            
+            
+        </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

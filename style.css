@@ -10,7 +10,7 @@ body {
 
   .proza-libre-nav{
   font-family: 'Proza Libre', sans-serif;
-  color:#1f692a!important;
+  color:#1f692a;
   }
 
   .banner-wrapper {
@@ -90,13 +90,16 @@ body {
 }
 
 .content-img {
-  left: -97px;
-  bottom: 60px;
+
+    left: 18px;
+    bottom: 49px;
+    height: 5rem;
 }
 
-.news-line-position{
 
-  margin-left: 185px;
+
+.news-line-position {
+  margin-left: 114px;
   margin-top: -45px;
   width: 13%;
 }
@@ -180,7 +183,7 @@ a:hover {
 .margin-ksel {
   height: 17rem!important;
   margin-top: -26rem;
-  margin-left: 15rem;
+  margin-left: 13rem;
  }
 
  .trap-line{
@@ -195,6 +198,52 @@ a:hover {
     line-height: 39px;
   
 }
+.text-11-sm{
+font-size:11px;
+}
+
+.list-font-size{
+  font-size:13px;
+}
+
+.input-negative-marg{
+  margin-left: -11rem;
+  margin-right: auto;
+}
+
+.fa-facebook {
+ padding-left: 10px;
+ padding-top: 6px;
+}
+.fa-instagram{
+  padding-top: 5px;
+padding-left: 8px;
+}
+.fa-linkedin{
+padding-left: 8px;
+}
+
+.rounded-circle{
+  height: 36px;
+  width: 36px;
+}
+
+.fawesome-position{
+  margin-left: 6rem!important;
+  margin-top: -13rem;
+}
+.fa-2x {
+  font-size: 24px!important;
+}
+
+.margin-move{
+  margin-left: auto;
+  margin-right: -1rem;
+  margin-top: 5rem;
+}
+
+
+
 
 
 
@@ -272,6 +321,36 @@ a:hover {
   .font-title{
     font-size: 37px;
   }
+
+  .content-img {
+    left: -97px;
+    bottom: 60px;
+    height: 16rem;
+  }
+
+  .news-line-position{
+
+    margin-left: 185px;
+    margin-top: -45px;
+    width: 13%;
+  }
+
+  .list-font-size{
+    font-size:16px;
+  }
+
+  .input-negative-marg{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .margin-move{
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: auto;
+  }
+
+  
 }
  
 
@@ -333,9 +412,18 @@ a:hover {
   .padding-texts{
     padding-right: 95px;
   }
-}
- 
 
+  .text-11-sm{
+    font-size:16px;
+    }
+
+.fawesome-position{
+    margin-left: 41rem!important;
+    margin-top:-9rem;
+}
+
+
+}
 
 
 /* XL Extra large devices (large desktops, 1200px and up) */
@@ -344,3 +432,32 @@ a:hover {
       max-width: 1335px!important;
   }
 }
+
+
+
+@media(max-width:800px){
+  .content-over{
+    top: 100px;
+    position: absolute!important;
+    z-index: 5;
+    background-color: white;
+    border-radius: 30px;
+    padding-bottom: 25px;
+    padding-top: 18px;
+    width: 100%!important;
+  }
+
+}
+
+button:focus{
+  outline: 0!important;
+}
+
+.nav-item.active a{
+  background-color: #1c6e26;
+  border-radius: 30px;
+  height: 35px!important;
+  padding-top: 7px!important;
+  color:white!important;
+}
+
