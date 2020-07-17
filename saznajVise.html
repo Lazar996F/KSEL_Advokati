@@ -17,8 +17,6 @@
 
 
   <body>
-
-
     <header class="container-md-fluid">
         <nav class="container px-0 navbar navbar-expand-lg navbar-light d-flex justify-content-between tab-pane active position-relative"
             role="tabpanel" aria-labelledby="home-tab">
@@ -48,6 +46,7 @@
                             <option>
                                 <p class="proza-libre-nav">SR</p>
                             </option>
+
                             <option>
                                 <p class="proza-libre-nav">HR</p>
                             </option>
@@ -130,10 +129,9 @@
 
 
     <main class="container-fluid padding-main">
-
         <div class="container pt-5">
             <div class="row pt-5 pb-5">
-                <div class="col-lg-6">
+                <div class="col-md-6 col-12">
                     <h1 class="proza-libre-nav" style="font-size: 4rem;">Naslov</h1>
                     <p class="text-muted ">Lorem ipsum | dolor sit amet | 19.06.2020</p>
                     <p class="text-muted text-left pr-5 pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -156,7 +154,7 @@
                             deserunt mollit anim id est laborum.</p>
                 </div>
 
-                <div class="col-lg-6 d-flex justify-content-end pb-5 pr-5">
+                <div class="col-6 d-md-flex d-none justify-content-end pb-5 pr-5">
                     <img src="images/KSlight.png" class="img-fluid pl-5" alt="Responsive image">
                 </div>
             </div>
@@ -180,13 +178,13 @@
         <section class="pt-5 pb-5">
             <div class="container pt-5">
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-lg-7 col-12">
                         <h1 class="proza-libre-nav " style="font-size:4rem">Još vesti</h1>
                         <img src="images/absoluteRight.png" class="img-fluid news-line-position line-mrg"
                             alt="Responsive image">
 
                         <div class="padding-texts pt-5">
-                            <h2 class="proza-libre-nav text-muted mt-4" style="font-size:2.5rem">Lorem ipsum dolor
+                            <h2 class="proza-libre-nav text-muted mt-4 font-litle-title">Lorem ipsum dolor
                                 sit amet</h2>
                             <p class="proza-libre-nav text-muted  mr-4">Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit, sed
@@ -198,7 +196,10 @@
                                 nulla
                                 pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                                 deserunt mollit anim id est laborum.</p>
-                            <hr class=" mr-5 pr-5" style="width: 200px; border:1px solid #cacaca;">
+
+                                <div class="d-none d-md-inline">
+                                    <hr class=" mr-5 pr-5" style="width: 200px; border:1px solid #cacaca;">
+                                </div>
                         </div>
 
                         <div class="mb-5 pb-5 padding-texts">
@@ -207,20 +208,13 @@
                                 <p class="text-muted pr-4">Saznaj više></p>
                             </a>
                         </div>
-
-
-
-                        <button type="button" class="btn green-bg btn-lg text-light radius-border w-50"
-                            style="height: 65px;">
-                            Prikaži sve vesti
-                        </button>
                     </div>
-                    <div class="col-5">
+                    <div class="col-lg-5 col-12">
                         <div class="d-flex flex-column bd-highlight mb-3">
                             <div class="p-2 bd-highlight">
-                                <h2 class="proza-libre-nav text-muted padding-second-text" style="font-size:2.5rem">
+                                <h2 class="proza-libre-nav text-muted padding-second-text font-litle-title">
                                     Lorem ipsum dolor sit amet</h2>
-                                <p class="proza-libre-nav text-muted  mr-4 ">Lorem ipsum dolor sit amet, consectetur
+                                <p class="proza-libre-nav text-muted  mr-4">Lorem ipsum dolor sit amet, consectetur
                                     adipiscing elit, sed
                                     do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                     veniam,
@@ -231,7 +225,9 @@
                                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                                     officia
                                     deserunt mollit anim id est laborum.</p>
-                                <hr class=" mr-5 pr-5" style="width: 200px; border:1px solid #cacaca;">
+                                    <div class="d-none d-md-inline">
+                                        <hr class=" mr-5 pr-5" style="width: 200px; border:1px solid #cacaca;">
+                                    </div>
 
                                 <div class="mb-5 pb-5">
                                     <button type="button" class="btn float-right" data-toggle="tooltip"
@@ -241,7 +237,7 @@
                                 </div>
                             </div>
                             <div class="p-2 bd-highlight">
-                                <h2 class="proza-libre-nav text-muted padding-second-text" style="font-size:2.5rem">
+                                <h2 class="proza-libre-nav text-muted padding-second-text font-litle-title">
                                     Lorem ipsum dolor sit amet</h2>
                                 <p class="proza-libre-nav text-muted pr-5 mr-4">Lorem ipsum dolor sit amet,
                                     consectetur adipiscing elit, sed
@@ -250,7 +246,9 @@
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.
                                 </p>
+                                <div class="d-none d-md-inline">
                                 <hr class=" mr-5 pr-5" style="width: 200px; border:1px solid #cacaca;">
+                                </div>
 
                                 <div class="mb-5 pb-5">
                                     <button type="button" class="btn float-right" data-toggle="tooltip"
@@ -261,6 +259,9 @@
                             </div>
                         </div>
                     </div>
+                    <button type="button" class="btn green-bg btn-lg text-light radius-border py-3 w-md-25 button-font-style">
+                            Prikaži sve vesti
+                    </button>
                 </div>
             </div>
 
@@ -325,7 +326,7 @@
                        
                         <div class="pl-md-3 pr-md-3 input-negative-marg">
                             <input type="text"
-                                class="form-control mt-3 input-image mb-5 border-0 font-placeholder input-h pl-5 radius-border "
+                                class="form-control mt-5 input-image mb-5 border-0 font-placeholder input-h pl-5 radius-border "
                                 placeholder=" Traži">
                             <p class="text-muted text-center fs-small-13 pt-4">KSEL Advokati | Sva prava zadrzana,2020. Built by
                                 Singularity.is</p>

@@ -5,7 +5,7 @@ body {
     font-family: 'Proza Libre', sans-serif !important;
   }
 
-
+  html { scroll-behavior: smooth; }
 
 
   .proza-libre-nav{
@@ -86,6 +86,7 @@ body {
   background-image: url('images/search.png');
   background-repeat: no-repeat;
   background-position: right;
+  background-size:contain;
 
 }
 
@@ -244,8 +245,20 @@ padding-left: 8px;
 
 
 
+button:focus{
+  outline: 0!important;
+}
 
 
+
+.map-h{
+  height: 20rem;
+}
+
+.font-litle-title{
+  font-size:26px;
+  padding-right: 7rem;
+}
 
 /* MD Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
@@ -357,20 +370,29 @@ padding-left: 8px;
   .font-placeholder{
     font-size:17px!important;
   }
+
+  .map-h{
+    height: 50rem;
+  }
+
+  .font-litle-title{
+    font-size:37px;
+  }
+
+  .right-bord{
+    border-right: 2px #1f692a solid;
+  }
+  .nav-item.active a{
+    background-color: #1c6e26;
+    border-radius: 30px;
+    height: 35px!important;
+    padding-top: 7px!important;
+    color:white!important;
+  }
 }
  
 
-button:focus{
-  outline: 0!important;
-}
 
-.nav-item.active a{
-  background-color: #1c6e26;
-  border-radius: 30px;
-  height: 35px!important;
-  padding-top: 7px!important;
-  color:white!important;
-}
 
 
 
@@ -493,4 +515,19 @@ button:focus{
       margin-left: auto;
 }
 
+
+.smLine{
+  margin-top: -25px;
+    height: 8rem!important;
+    margin-left: -18rem!important;
 }
+
+
+
+.symbols-font{
+  font-size:18px;
+}
+
+
+}
+
