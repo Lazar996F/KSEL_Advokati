@@ -386,8 +386,12 @@ button:focus{
     background-color: #1c6e26;
     border-radius: 30px;
     height: 35px!important;
-    padding-top: 7px!important;
-    color:white!important;
+    padding-top: 16px!important;
+    color: white!important;
+    height: 3px;
+    line-height: 4px;
+    margin-top: -9px;
+    padding-right: 8px!important;
   }
 }
  
