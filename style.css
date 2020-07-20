@@ -33,7 +33,7 @@ body {
   
 
 .vl {
-  border-left: 2px solid rgb(230, 230, 230);
+  border-left: 2px solid #a5a5a5;
   height: 31px;
 }
 .green-bg{
@@ -111,7 +111,7 @@ a:hover {
 }
 
 .font-placeholder{
-  font-size:17px!important;
+  font-size:14px!important;
 }
 
 .horisontal-mid {
@@ -257,7 +257,7 @@ button:focus{
 
 .font-litle-title{
   font-size:26px;
-  padding-right: 7rem;
+  padding-right: 6rem;
 }
 
 /* MD Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -320,7 +320,7 @@ button:focus{
    }
 
    .font-placeholder{
-    font-size:26px!important;
+    font-size:26px;
   }
 
   .padd-85px-right{
@@ -368,7 +368,7 @@ button:focus{
   }
 
   .font-placeholder{
-    font-size:17px!important;
+    font-size:26px!important;
   }
 
   .map-h{
@@ -385,13 +385,18 @@ button:focus{
   .nav-item.active a{
     background-color: #1c6e26;
     border-radius: 30px;
-    height: 35px!important;
+    height: 39px!important;
     padding-top: 16px!important;
     color: white!important;
     height: 3px;
     line-height: 4px;
     margin-top: -9px;
     padding-right: 8px!important;
+  }
+
+
+  .padding-idea-txt{
+    padding-right: 19rem;
   }
 }
  
@@ -439,7 +444,7 @@ button:focus{
   .vert-short-line{
     border-left:1px solid #abc8b6;
     height: 43px;
-    margin-left:11rem;
+    margin-left:14rem;
   }
 
   .padding-main{
@@ -481,6 +486,15 @@ button:focus{
 
 .txt-padding-large{
   padding: 0px 292px;
+}
+
+.input-h{
+  height: 4rem!important;
+}
+
+
+.padding-symbol{
+  padding-left: 11rem;
 }
 
 
@@ -531,7 +545,5 @@ button:focus{
 .symbols-font{
   font-size:18px;
 }
-
-
 }
 
