@@ -36,6 +36,8 @@ body {
   border-left: 2px solid #a5a5a5;
   height: 31px;
 }
+
+
 .green-bg{
   background-color: #1c6e26!important;
 }
@@ -63,9 +65,7 @@ body {
   padding-left:30px!important;
 }
 
-.radius-border{
-  border-radius: 3rem!important;
-}
+
 
 .abso-line{
   position: absolute;
@@ -76,12 +76,11 @@ body {
 .button-radius{
   border-radius: 25px!important;
 }
+
+
  .bg-section-light{
    background-color: #d3d4d6a4!important;
- }
-
-
-  
+ }  
  .input-image {
   background-image: url('images/search.png');
   background-repeat: no-repeat;
@@ -166,7 +165,7 @@ a:hover {
 
 .line-small-block {
   height: 6rem!important;
-  margin-top: 15rem;
+  margin-top: 14rem;
   margin-left: 12rem;
 }
 
@@ -183,7 +182,7 @@ a:hover {
 
 .margin-ksel {
   height: 17rem!important;
-  margin-top: -26rem;
+  margin-top: -29rem;
   margin-left: 13rem;
  }
 
@@ -197,7 +196,6 @@ a:hover {
   font-size: 24px;
     padding-right: 9rem;
     line-height: 39px;
-  
 }
 .text-11-sm{
 font-size:11px;
@@ -243,13 +241,9 @@ padding-left: 8px;
   margin-top: 5rem;
 }
 
-
-
 button:focus{
   outline: 0!important;
 }
-
-
 
 .map-h{
   height: 20rem;
@@ -259,6 +253,42 @@ button:focus{
   font-size:26px;
   padding-right: 6rem;
 }
+
+.fonter-size{
+
+  font-size: 2rem;
+}
+
+
+.padd-right-six{
+  padding-right: 6rem;
+}
+
+.radius-border{
+  border-radius: 3rem!important;
+}
+
+
+.radius-carousel{
+  border-radius: 26px;
+}
+
+.fa-color{
+
+  color:#1f692a!important;
+  font-size:2rem!important;
+}
+.fa-window-close{
+  padding-left: 0!important;
+}
+
+.smally-title{
+  font-size: 2.5rem;
+  text-align: left;
+  padding-right: 4rem;
+  padding-top: 2rem;
+}
+
 
 /* MD Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
@@ -276,6 +306,9 @@ button:focus{
    font-size:4rem!important;
  }
 
+ .fonter-size{
+   font-size: 4rem;
+ }
 
  .padding-second-text{
   padding-right: 235px;
@@ -398,25 +431,14 @@ button:focus{
   .padding-idea-txt{
     padding-right: 19rem;
   }
+
+
+  .radius-carousel{
+    border-radius: 3rem;
+  }
+
 }
- 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ****************************************MEDIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((*/
 /* LG Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   .position-lg-absolute {
@@ -498,6 +520,17 @@ button:focus{
 }
 
 
+.padd-right-six{
+  padding-right: 14rem;
+}
+
+.smally-title{
+  font-size: 2.5rem;
+text-align: center;
+padding-bottom: 2rem;
+}
+
+
 }
 
 
@@ -528,6 +561,7 @@ button:focus{
   font-size:14px;
 }
 
+
 .margInp{
       margin-right: -8rem;
       margin-left: auto;
@@ -545,5 +579,20 @@ button:focus{
 .symbols-font{
   font-size:18px;
 }
+
+
+
+.carousel-img-h{
+    object-fit: cover;
+    height: 151px;
+    width: 100% !important;
+}
+
+.row-negative{
+  margin-right: -8rem!important;
+}
+
+
+
 }
 
