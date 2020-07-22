@@ -180,8 +180,7 @@ a:hover {
 
 
 .margin-ksel {
-  height: 17rem!important;
-  margin-top: -29rem;
+  margin-top: -31rem;
   margin-left: 13rem;
  }
 
@@ -227,9 +226,11 @@ padding-left: 8px;
 }
 
 .fawesome-position{
-  margin-left: 6rem!important;
-  margin-top: -13rem;
+    margin-left: 81px!important;
+    margin-top: -122px;
 }
+
+
 .fa-2x {
   font-size: 24px!important;
 }
@@ -301,6 +302,12 @@ button:focus{
 .fontor{
   font-size: 13px;
 }
+
+.righter{
+  padding-right: 7rem!important;
+}
+
+
 
 
 /* MD Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -428,34 +435,32 @@ button:focus{
   .right-bord{
     border-right: 2px #1f692a solid;
   }
-  .nav-item.active a{
+  .nav-item.active a {
     background-color: #1c6e26;
     border-radius: 30px;
     height: 39px!important;
-    padding-top: 16px!important;
+    padding-top: 17px!important;
     color: white!important;
     height: 3px;
     line-height: 4px;
     margin-top: -9px;
-    padding-right: 8px!important;
-  }
+    padding-right: 15px!important;
+    padding-left: 19px!important;
+}
 
-
-  .padding-idea-txt{
-    text-align: center;
-    padding-right: 267px;
-
-  }
-
-
-  .radius-carousel{
-    border-radius: 3rem;
-  }
+.padding-idea-txt{
+  text-align: center;
+  padding-right: 267px;
 
 }
 
 
+.radius-carousel{
+  border-radius: 3rem;
+}
 
+
+}
 
 
 /* LG Large devices (desktops, 992px and up) */
@@ -551,6 +556,10 @@ button:focus{
 }
 
 
+.title-fo{
+  font-size:4rem;
+}
+
 }
 
 
@@ -563,7 +572,7 @@ button:focus{
 
 
 
-@media(max-width:800px){
+@media(max-width:768px){
   .content-over{
     top: 100px;
     position: absolute!important;
@@ -631,6 +640,19 @@ button:focus{
     margin-top: -6px;
 }
 
+.fo-nt{
+  font-size:22px;
+}
+
+.fo-nten{
+    font-size:18px;
+}
+
+.margin-ksel{
+  margin-top: -26rem;
+  margin-left: 16rem;
+  height: 11rem!important;
+ }
 
 }
 
