@@ -86,7 +86,6 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   background-size:contain;
-
 }
 
 .content-img {
@@ -160,7 +159,7 @@ a:hover {
 }
 
 .fs-small-13 {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .line-small-block {
@@ -250,8 +249,8 @@ button:focus{
 }
 
 .font-litle-title{
-  font-size:26px;
-  padding-right: 6rem;
+  font-size: 22px;
+  padding-right: 8rem;
 }
 
 .fonter-size{
@@ -289,6 +288,20 @@ button:focus{
   padding-top: 2rem;
 }
 
+.text-font{
+  font-size: 12px;
+}
+
+.line-negative{
+  margin-left: -14rem;
+  height: 6rem;
+  padding-top: 1rem;
+}
+
+.fontor{
+  font-size: 13px;
+}
+
 
 /* MD Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
@@ -316,7 +329,7 @@ button:focus{
 
 
 .input-h{
-  height: calc(1.5em + 0.75rem + 17px)!important;
+  height: calc(1.5em + 0.75rem + 12px)!important;
   border-radius:3rem!important;
 }
 
@@ -429,7 +442,9 @@ button:focus{
 
 
   .padding-idea-txt{
-    padding-right: 19rem;
+    text-align: center;
+    padding-right: 267px;
+
   }
 
 
@@ -438,6 +453,10 @@ button:focus{
   }
 
 }
+
+
+
+
 
 /* LG Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
@@ -524,10 +543,11 @@ button:focus{
   padding-right: 14rem;
 }
 
-.smally-title{
-  font-size: 2.5rem;
-text-align: center;
-padding-bottom: 2rem;
+.text-font{
+  font-size: 18px;
+}
+.fontor{
+  font-size: 16px;
 }
 
 
@@ -592,6 +612,24 @@ padding-bottom: 2rem;
   margin-right: -8rem!important;
 }
 
+.pad-r7{
+  padding-right: 7rem;
+  text-align: left;
+  padding-top:3rem;
+}
+
+.margin-hr{
+  margin-left: 15rem;
+}
+
+.padd-r{
+  padding-right: 2rem;
+}
+
+.marginKrline{
+  margin-left: -1rem;
+    margin-top: -6px;
+}
 
 
 }
