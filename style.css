@@ -350,10 +350,8 @@ button:focus{
   font-weight:normal;
   
   }
-  .sp-border-right {
-    border-right: 2px solid #2b5d38;
-    line-height: 18px;
-  }
+
+  
 
   .font-size-small{
     font-size: 25px;
@@ -450,7 +448,9 @@ button:focus{
 
 .padding-idea-txt{
   text-align: center;
-  padding-right: 267px;
+  padding-left: 51px;
+  padding-right: 358px;
+}
 
 }
 
@@ -460,7 +460,7 @@ button:focus{
 }
 
 
-}
+
 
 
 /* LG Large devices (desktops, 992px and up) */
@@ -476,7 +476,7 @@ button:focus{
 
 
   .text-padding-7{
-    padding-right: 7rem!important;
+    padding-right: 12rem!important;
   }
 
 
@@ -488,9 +488,9 @@ button:focus{
   }
 
   .vert-short-line{
-    border-left:1px solid #abc8b6;
+    border-left: 2px solid #abc8b6;
     height: 43px;
-    margin-left:14rem;
+    margin-left: 276px;
   }
 
   .padding-main{
@@ -559,7 +559,10 @@ button:focus{
 .title-fo{
   font-size:4rem;
 }
-
+.sp-border-right {
+  border-right: 2px solid #2b5d38;
+  line-height: 18px;
+}
 }
 
 
